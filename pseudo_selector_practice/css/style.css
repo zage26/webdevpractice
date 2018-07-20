@@ -1,0 +1,22 @@
+/*Make all paragraphs turn red when you hover over them.*/
+p:hover {
+	color:red;
+}
+/*Make all h1's turn orange when you hover over them.*/
+h1:hover {
+	color:orange;
+}
+/*Make all links green with no underline when they have not been visited.*/
+a:link 
+	color:green;
+	text-decoration:none;
+}
+/*When a link has been visited, make it turn yellow.*/
+a:visited {
+	color:yellow;
+}
+/*When you click on a link, have it increase font size and add an underline*/
+a:active {
+	font-size: 2em;
+	text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+html {
+	font-family: "Courier new", monospace;
+}
+
+#page {
+	border: solid;
+	width: 90%;
+	margin: 0px auto;
+}
+
+header {
+/*	border:solid;*/
+	text-align: center;
+}
+
+#banner {
+/*	border:solid;*/
+	width: 80%;
+	margin: 10px auto;
+}
+
+nav {
+/*	border: solid;*/
+	width: 80%;
+	margin: 0px auto;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+a {
+	color:red;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+	color:blue;
+}
+
+li {
+	display: inline;
+	margin: 0px 2%;
+}

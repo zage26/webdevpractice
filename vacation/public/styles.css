@@ -1,0 +1,55 @@
+html {
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* Header */
+.header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+a {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Temp and Footer*/
+.temp, .copyright {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* Images */
+img {
+  width: 325px;
+  height: 190px;
+}
+
+.eer {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.imS p {
+  font-size: 20px;
+}

@@ -1,0 +1,68 @@
+p {
+	width: 250px;
+	height:250px;
+	border: solid;
+
+/*	z-index:2;*/
+/*	border-radius: 200px;*/
+}
+
+p.square {
+	float: left;
+	margin: 10px;
+}
+
+/*p.selected {
+/*	color:red;*/
+/*	position:absolute;*/
+/*	top: 50px;
+	z-index:1;*/
+/*	left: 50px;*/
+/*	border-color: #FF5733;
+	position:relative;
+	left:100px;*/
+/*}*/
+
+/*p.first {
+	color:green;
+	position:absolute;
+}
+*/
+p.red {
+	color:red;
+	clear:left
+}
+
+div.container {
+	color: blue;
+	border: solid;
+	width: 100%;
+	overflow: auto;
+}
+
+/*display: block 
+	div, p, h1, ul
+	box goes to next line
+
+display: inline
+	sdf sdfsdfs<span>the</span> ierunci aiu
+	img, <i>, <b> *Things that happen in a single line
+
+display: inline-block
+
+position
+	- static (default: what you normally see)
+	  	*CANNOT MOVE*
+	- relative
+		- Postioned relative to where it would
+		  have been (use top, bottom, left, right 
+		  attributes to adjust movement)
+		  *CAN MOVE THE OBJECT*
+	- absolute
+		- Relative to its containing element
+		- Moving relative to top, bottom, sides 
+		  of the element
+		- enables you to overlpa stuff
+		*ABOVE THE FLOW*
+	- fixed (fixes it with relationship to the whole
+	  screen, similar to absolute)*/

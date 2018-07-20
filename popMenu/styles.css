@@ -1,0 +1,74 @@
+#button-open {
+	width: 100px;
+	height: 50px;
+	font-size: 30px;
+	font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+#button-exit {
+	float: right;
+	margin: 10px;
+	width: 75px;
+	height: 30px;
+	font-size: 20px;
+	font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+#list {
+	font-size: 30px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+}
+
+.menu {
+	width: 0px;
+	height: 250px;
+	background-color: purple;
+	position: fixed;
+	z-index: 1;
+	top: 7px;
+	transition: width 3s ease-in-out;
+	overflow: hidden;
+}
+
+.changeWidth {
+	width: 200px;
+}
+
+/*Colors*/
+
+.red {
+	color: red;
+}
+
+.pink {
+	color: pink;
+}
+
+.orange {
+	color: orange;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.green {
+	color: green;
+}
+
+.lightblue {
+	color: lightblue;
+}
+
+.blue {
+	color: blue;
+}
+
+.lightgreen {
+	color: lightgreen;
+}
+
+.violet {
+	color: violet;
+}

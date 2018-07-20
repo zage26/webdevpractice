@@ -1,0 +1,72 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px 50px;
+}
+
+.one {
+  background-color: #012359;
+}
+
+.two {
+  background-color: #002e77;
+}
+
+.three {
+  background-color: #0047b7;
+}
+
+.four {
+  background-color: #025ff2;
+}
+
+.one, .two, .three {
+  transition: .5s;
+}
+
+.move {
+  margin-left: 400px;
+  background-color: red;
+}
+
+.widen {
+  width: 300px;
+  background-color: green;
+}
+
+@keyframes square {
+  0% {
+    left: 0px;
+    top: 0px;
+    background-color: #025ff2;
+  }
+
+  25% {
+    left: 150px;
+    top: 0px;
+    background-color: #0047b7
+  }
+
+  50% {
+    left: 150px;
+    top: 150px;
+    background-color: #002e77;
+  }
+
+  75% {
+    left: 0px;
+    top: 150px;
+    background-color: #012359;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+    background-color: #025ff2;
+  }
+}
+
+.animate {
+  position: relative;
+  animation: square 2s;
+}

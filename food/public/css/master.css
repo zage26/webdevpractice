@@ -1,0 +1,9 @@
+* {
+  color: red;
+  background: blue;
+}
+
+*:hover {
+  color: purple;
+  background: yellow;
+}

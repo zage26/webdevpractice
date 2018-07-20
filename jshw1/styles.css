@@ -1,0 +1,15 @@
+.no_borders {
+	border: none;
+}
+
+.borders {
+	border: solid;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}

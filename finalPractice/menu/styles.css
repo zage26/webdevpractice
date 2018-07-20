@@ -1,0 +1,26 @@
+.menu {
+/*	border: solid black;*/
+	background-color: purple;
+	color: white;
+	height: 300px;
+	width: 100px;
+	padding: 10px;
+	display: grid;
+	grid-template-rows: 10% 90%;
+	position: absolute;
+	left: -90px;
+	transition: all 1s ease-in-out;
+	border-radius: 5px;
+}
+
+.sign {
+/*	border: black solid;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.trans {
+	left: 0px;
+}

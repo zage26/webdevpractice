@@ -1,0 +1,12 @@
+h1 {
+	color: #0000cc;
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 300%;
+}
+
+strong {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+

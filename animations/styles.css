@@ -1,0 +1,39 @@
+div {
+	height: 100px;
+	width: 100px;
+}
+
+.box1 {
+	background-color: red;
+	transition: background-color 2s, width 2s;
+	margin: 10px;
+}
+
+.wide {
+	background-color: purple;
+	width: 200px;
+}
+
+#pop-in-out {
+	height: 50px;
+	width: 100px;
+	margin: 10px;
+}
+
+#menu {
+	width: 200px;
+	height: 300px;
+	background-color: black;
+	position: fixed;
+	z-index: 1;
+	top: 10px;
+}
+
+#close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	background-color: red;
+}

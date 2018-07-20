@@ -1,0 +1,50 @@
+/*Pargraphs*/
+p {
+	color:white;
+	text-align: center;
+	margin: 0px;
+	font-size: 2.5em;
+}
+
+/*Divisions*/
+div {
+	width: 100%;
+	height: 6em;
+}
+
+/*Code to specified id of division*/
+#red {
+	background-color:#FF0000;
+	font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+#orange {
+	background-color:#FF7F00;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#yellow {
+	background-color:#FFFF00;
+	font-family: 'Indie Flower', cursive;
+}
+
+#green {
+	background-color:#00FF00;
+	font-family: 'Anton', sans-serif;
+}
+
+#lightblue {
+	background-color:#00FFFF;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#blue {
+	background-color:#0000FF;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#purple {
+	background-color:#8B00FF;
+	font-family: 'Dancing Script', cursive;
+}
+

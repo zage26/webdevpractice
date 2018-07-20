@@ -1,0 +1,76 @@
+.btn {
+	background-color: #3366ff;
+	color: white;
+	padding: 20px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	font-family: 'Playfair Display', serif;
+}
+
+.btn:hover {
+	background-color: #1a53ff;
+}
+
+.sideMenu {
+	background-color: #70BDF2;
+	width: 0px;
+	height: 105px;
+	margin-top: 10px;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: width 1.5s ease-in-out;
+	text-align: center;
+}
+
+.trans1 {
+	width: 105px;
+}
+
+.sideMenu:hover {
+	background-color: #6CB2F1;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	color: white;
+	border-top: solid;
+	border-bottom: solid;
+	margin-top: 37px;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropctn {
+	position: absolute;
+    height: 0px;
+    overflow: auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+    border-radius: 20px;
+    transition: height 1.5s ease-in-out;
+}
+
+.dropctn a {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropctn a:hover {
+	background-color: #F0F0F0;
+	cursor: pointer;
+}
+
+.show {
+	height: 83px;
+}
+
+

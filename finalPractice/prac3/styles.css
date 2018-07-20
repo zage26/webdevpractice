@@ -1,0 +1,135 @@
+#container {
+	margin: 100px;
+	padding: 0px;
+}
+
+.btn {
+	position: relative;
+	width: 100%;
+	background-color: lightblue;
+	color: white;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #1a53ff;
+}
+
+#dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.ctn {
+    overflow: auto;
+  	position: absolute;
+  	height: 0px;
+    background-color: #f9f9f9;
+    width:100%;
+    box-shadow: 5px 10px 16px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+    transition: all 1.5s ease-in-out;
+}
+
+.ctn p {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.ctn p:hover {
+	background-color: #F0F0F0;
+	cursor: pointer;
+}
+
+.show {
+	height: 84px;
+}
+
+.page1 {
+	height: 300px;
+	display: grid;
+	grid-template-rows: repeat(3, 33.33%);
+}
+
+#pic1, #pic2, #pic3 {
+	display: grid;
+}
+
+#pic1 {
+	grid-template-columns: 25% 75%;
+}
+
+#pic2 {
+	grid-template-rows: repeat(3, 33.33%);
+}
+
+#pic3 {
+	grid-template-columns: 75% 25%;
+}
+
+#p1i1 {
+	background-color: red;
+} 
+
+#p1i2 {
+	background-color: purple;
+}
+
+#p2i1 {
+	background-color: magenta;
+}
+
+#p2i2 {
+	background-color: yellow;
+}
+
+#p2i3 {
+	background-color: orange;
+}
+
+#p3i1 {
+	background-color: green;
+}
+
+#p3i2 {
+	background-color: blue;
+}
+
+.page2 {
+	height: 300px;
+	display: grid;
+	grid-template-rows: repeat(3, 33.33%);
+}
+
+#par1, #par2, #par3 {
+	display: grid;
+	align-content: center;
+	justify-items: center;
+}
+
+#par1 {
+	grid-template-columns: 25% 75%;
+}
+
+#par2 {
+	grid-template-rows: repeat(3, 33.33%);
+}
+
+#par3 {
+	grid-template-columns: 75% 25%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}

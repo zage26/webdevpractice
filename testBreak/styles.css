@@ -1,0 +1,16 @@
+.grid {
+	border: solid;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+
+.something {
+	border: solid;
+}
+
+@media only screen and (max-width: 800px) {
+	.grid {
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(2, 50%);
+	}
+}

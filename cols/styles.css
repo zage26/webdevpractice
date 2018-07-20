@@ -1,0 +1,91 @@
+/*Number of columns*/
+
+body {
+	margin: 0px;
+    padding: 0px;
+}
+
+section{
+	text-align: center;
+	overflow: auto;
+	padding: 0;
+}
+
+p.one {
+	width:98%;
+	margin: 0.5em 1%;
+}
+
+p.two {
+	margin: 0.5em 1%;
+	width: 48%;
+	float: left;
+}
+
+p.three {
+	width: 31.333333%;
+	margin: 0.5em 1%;
+	float: left;
+}
+
+p.small {
+	width: 28%;
+	margin: 0.5em 1%;
+	float: left;
+}
+
+p.big {
+	width: 38%;
+	margin: 0.5em 1%;
+	float: left;
+}
+
+.small-big-small-table {
+	display: table;
+}
+
+p.small-table {
+	display: table-cell;
+	width: 28%;
+}
+
+p.big-table {
+	display: table-cell;
+	width: 30%;
+	padding: 3% 1%;
+}
+
+
+img {
+	align-items: center
+	float:left;
+	width: 30%;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+	transition-timing-function: ease;
+}
+
+img:hover {
+	width: 40%;
+}
+
+/*color*/
+p.green {
+	background: lightgreen;
+}
+
+p.blue {
+	background: lightblue;
+}
+
+p.red {
+	background: pink;
+}
+
+p.purple {
+	background: violet;
+}
+
+p.yellow {
+	background: lightyellow;
+}

@@ -1,0 +1,142 @@
+/*SIDE MENU*/
+.menu {
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	z-index: 1;
+	display: grid;
+	grid-template-rows: 10% 90%;
+	background-color: purple;
+	padding: 10px;
+	transition: all .5s ease-in-out;
+	color: white;
+	left: -90px;
+}
+
+.sign {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.writing p{
+	text-align: center;
+	font-size: 33px;
+	font-family: 'Sacramento', cursive;
+}
+
+.writing p:hover, .sign:hover {
+	cursor: pointer;
+}
+
+.trans{
+	left: 0px;
+}
+
+/*FIRST PAGE*/
+
+.page1 {
+	margin-left: 30px;
+}
+
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+}
+
+.title {
+	font-family: 'Rouge Script', cursive;
+	text-align: center;
+	font-size: 20px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	transition: all 1.5s ease-in-out;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 15% 85%;
+	padding: 10px;
+}
+
+.t1 {
+	margin-left: 150px;
+}
+
+.t2 {
+	margin-left: 150px;
+	width: 200px;
+}
+
+.t3 {
+	margin-left: 150px;
+	width: 300px;
+}
+
+.grey-boxes {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.gbox {
+	width: 150px;
+	height: 100px;
+	background-color: grey;
+	margin: 10px;
+	transition: all 1.5s ease-in-out;
+}
+
+.change {
+	background-color: green;
+	height: 125px;
+}
+
+.test {
+	border: solid;
+	display: inline-block;
+}
+
+.name {
+	margin: 20px;
+	padding-top: 83px;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	z-index: 1;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+/*SECOND PAGE*/
+
+.page2 {
+	margin-left: 30px;
+}
+
+label {
+	font-family: 'Special Elite', cursive;
+}
+
+img {
+	width: 450px;
+	height: 350px;
+
+}
+
+.red {
+	background-color: red;
+}
+
+.post-area {
+	font-family: 'Nixie One', cursive;
+}
+
+/*TOGGLE PAGES*/
+.hidden {
+	display: none;
+}
+

@@ -1,0 +1,19 @@
+.selected {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+section.about {
+	color: green;
+} 
+
+section.pandas {
+	color: blue;
+}
+
+section.dogs {
+	color: purple;
+}

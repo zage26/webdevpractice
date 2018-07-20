@@ -1,0 +1,89 @@
+.page-container {
+	background-color: red;
+	height: 600px;
+	display: grid;
+	grid-template-rows: 20% 80%;
+}
+
+/*All of its children display grid*/
+
+.top {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.yellow {
+	background-color: yellow;
+	grid-column: 2;
+}
+
+.bottom {
+	background-color: white;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.one {
+	grid-column: 1;
+	background-color: orange;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.two {
+	grid-column: 2;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.black_right {
+	grid-column: 2;
+	background-color: black;
+}
+
+.black_left {
+	grid-row: 2;
+	background-color: black;
+}
+
+.center_piece {
+	grid-area: 2 / 2;
+	background-color: lightgreen;
+}
+
+.three {
+	grid-row: 2;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+}
+
+.second_row {
+	grid-row: 2;
+	background-color: blue;
+}
+
+.third_row {
+	grid-row: 3;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.purple_section {
+	grid-column: 1;
+	background-color: purple;
+}
+
+.four {
+	grid-row: 2;
+	background-color: cyan;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.mag_col {
+	grid-column: 2;
+	background-color: magenta;
+}
